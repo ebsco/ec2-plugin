@@ -161,6 +161,8 @@ THE SOFTWARE.
     <f:entry title="${%Connect by SSH Process}" field="connectBySSHProcess">
       <f:checkbox />
     </f:entry>
+    
+    <f:descriptorList title="${%Node Properties}" descriptors="${h.getNodePropertyDescriptors(descriptor.clazz)}" field="nodeProperties"/>
 
   </f:advanced>
 
